@@ -1,6 +1,6 @@
 ---
 version: v1.1
-prep_time: 25 mins
+prep_time: 15 mins
 allergens: [Gluten, Soy]
 tags:
   - savoury
@@ -35,7 +35,7 @@ ingredients:
 
 # Cheezy Sauce
 
-**Version:** `{{ page.meta.version }}` | **Protein:** {{ page.meta.protein }} | **Prep:** {{ page.meta.prep_time }}  
+**Version:** `{{ page.meta.version }}` |  **Prep:** {{ page.meta.prep_time }}  
 **Allergens:** {{ page.meta.allergens | join(', ') }}
 
 {{ render_nutrition() }}
