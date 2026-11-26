@@ -35,14 +35,15 @@ ingredients:
 
 # Cheezy Sauce
 
-**Version:** `{{ page.meta.version }}` |  **Prep:** {{ page.meta.prep_time }}  
+**Version:** `{{ page.meta.version }}`
+**Prep:** {{ page.meta.prep_time }}  
 **Allergens:** {{ page.meta.allergens | join(', ') }}
 
 {{ render_nutrition() }}
 
 ## Introduction
 
-This is a really simple and versatile cheery sauce recipe that I've used for macaroni, in a pie or tart and just about anywhere you'd want to use a cheesy style sauce
+This is a really simple and versatile cheesy sauce recipe that I've used for macaroni, in a pie or tart and just about anywhere you'd want to use a cheesy style sauce
 
 ## Equipment
 
