@@ -3,11 +3,16 @@ repo_url: https://github.com/bluemonki/open-source-bites
 repo_name: bluemonki/open-source-bites
 edit_uri: edit/main/docs/
 
-nav:
-  - Home: index.md
-  - About: about.md
+# nav:
+#   - Home: index.md
+#   - About: about.md
 
 theme:
   name: material
   features:
     - content.action.edit
+
+plugins:
+  - search
+  - tags
+  - macros

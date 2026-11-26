@@ -1,0 +1,14 @@
+name: Lint Recipes
+on:
+  pull_request:
+    paths:
+      - 'docs/**/*.md'
+
+jobs:
+  spellcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: streetsidesoftware/cspell-action@v6
+        with:
+          files: docs/**/*.md
