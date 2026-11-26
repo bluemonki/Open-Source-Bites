@@ -1,6 +1,5 @@
 ---
 version: v1.1
-protein: 24g
 prep_time: 25 mins
 allergens: [Gluten, Soy]
 tags:
@@ -49,7 +48,7 @@ This is a really simple and versatile cheery sauce recipe that I've used for mac
 
 * Weighing scales
 * Small saucepan / milk pan
-* Spatula or Wooden spoon
+* Spatula or wooden spoon
 * Teaspoon
 * Tablespoon
 * Mug
